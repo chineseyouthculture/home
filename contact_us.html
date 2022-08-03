@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" type="text/css" href="stylecontact.css">
+        <link rel="stylesheet" type = "text/css" href="nav.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <div id = "top_container">
+            <p id="title">Chinese Youth Culture Program</p>
+            <div class="topnav" id="myTopnav">
+                <script src="nav.js"></script>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="artwork.html">Artwork</a>
+                <a href="contribute.html">Contribute</a>
+                <a href="contact_us.html"class="active">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+        <h2>Contact Us</h2>
+        <img src="imgs/line_divider.png" id="line_divider">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo error a hic quasi totam nihil veniam autem temporibus cum ex ad est dicta, provident ea, repudiandae obcaecati sequi inventore qui?</p>
+        </div>
+        <!-- form for contacting -->
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>Feel free to contact us and we will get back to you ass sson as we can.</p>
+            <form action="mail.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject">
+                <label for="message">Message</label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send">
+            </form>
+          </div>
+    </body>
+</html>

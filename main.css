@@ -1,0 +1,93 @@
+/*carousel*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width:100%;
+  height: 70vh;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+#slide{
+    width:100%;
+    height:70vh;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*About Us*/
+.about{
+    padding:5vh 5vw 5vw 5vw;
+    margin: auto;
+}
+h2{
+    font-size:5vw;
+    text-align:center;
+    color:brown;
+}
+#line_divider{
+    width: 50vw;
+    height:5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p,h3{
+    font-size:3vw;
+}
+.box{
+  background-color: lightgrey;
+  width: 25%;
+  height: 20%;
+  border: 0.3vw solid lightskyblue;
+  padding: 2%;
+  margin: 4%;
+  float: left;
+}
+#info{
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 1000px) {
+  .box {
+    width: 90%;
+    height: 30%;
+  }
+  #info{
+    font-size: 2.5vw;
+  }
+  h3{
+    font-size: 3vw;
+  }
+}
