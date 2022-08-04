@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id = "top_container">
+            <p id="title">Chinese Youth Culture Program</p>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="ourworks.html">Artwork</a>
+                <a href="contribute.html">Contribute</a>
+                <a href="contact_us.html">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                <script src="nav.js"></script>
+            </div>
+        </div>
+        <!--slideshow carousel-->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="imgs/maomao.jpg" id="slide">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="imgs/watercolor_header.jpg"id="slide">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="imgs/feng.png"id="slide">
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <script src="app.js"></script>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          <br>
+          <div class="about">
+            <h2>Discover Us!</h2>
+            <img src="imgs/line_divider.png" id="line_divider">
+          </div>
+          <div class="goto">
+            <div class="box" id="myBox">
+              <h3>About Us</h3>
+              <p id="info">We are a group of Grade 12 students who would like to bring more awareness to Chinese culture.</p>
+              <a href="about.html" id ="btn"><span>Learn More</span></a>
+            </div>
+            <div class="box">
+              <h3>Our Works</h3>
+              <p id="info">
+                Discover the beautiful artworks, writing, and music created by Chinese youth. Hear the voices of Canadian
+                Chinese youth.
+              </p>
+              <a href="ourworks.html" id ="btn"><span>Learn More</span></a>
+            </div>
+            <div class="box">
+              <h3>Contribute</h3>
+            </div>
+          </div>
+    </body>
+</html>
