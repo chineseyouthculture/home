@@ -8,7 +8,7 @@ h1{
     padding: 2%;
 }
 p,li{
-    font-size:1.5vw;
+    font-size:1.5em;
     padding: 1vh;
     text-align: center;
 }
@@ -24,10 +24,10 @@ h2{
   
 #btn{
     display: block;
-    width: 35vw;
-    height: 6vw;
-    line-height: 6vw;
-    font-size: 1.5vw;
+    width: 20em;
+    height: 4em;
+    line-height: 4em;
+    font-size: 1.3em;
     font-family: sans-serif;
     text-decoration: none;
     color: #333;
