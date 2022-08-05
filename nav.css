@@ -7,10 +7,6 @@
     background: transparent;
     font-family: 'Stardos Stencil', cursive;
 }
-#title{
-    color: blue;
-    font-size:5vh;
-}
 h1{
   color: blue;
   font-size:5vh;
@@ -36,6 +32,7 @@ h1{
 #title{
     color: blue;
     font-size:5vh;
+    text-align:left;
 }
 
 .topnav {
