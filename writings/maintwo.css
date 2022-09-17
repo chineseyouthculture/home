@@ -1,0 +1,20 @@
+h2{
+    font-size:2.5em;
+    text-align:center;
+}
+h3{
+    font-size:2em;
+    text-align:center;
+}
+#writing{
+    padding:8%;
+}
+p{
+    font-size:1.5em;
+    text-align:center;
+}
+@media only screen and (max-width: 1200px){
+    p{
+        font-size:1em;
+    }
+}
