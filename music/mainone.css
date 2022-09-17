@@ -1,0 +1,25 @@
+h2{
+    font-size:2.5em;
+    text-align:center;
+}
+h3{
+    font-size:2em;
+    text-align:center;
+}
+p{
+    font-size:1.5em;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#audioplayer{
+    width:50%;
+}
