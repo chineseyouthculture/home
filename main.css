@@ -7,6 +7,7 @@
   height: 70vh;
   position: relative;
   margin: auto;
+  overflow-y:hidden;
 }
 
 /* Hide the images by default */
@@ -19,21 +20,7 @@
     height:70vh;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
 
-.active, .dot:hover {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
@@ -50,6 +37,7 @@
 .about{
     padding:5vh 5vw 5vw 5vw;
     margin: auto;
+    background-image: url('imgs/mountains2.jpg');
 }
 h2{
     font-size:4em;
@@ -68,12 +56,12 @@ p,h3{
     font-size:2.5em;
 }
 .box{
-  background-color: lightgrey;
-  width: 25vw;
+  background-color:rgba(250, 220, 250, 0.7);
+  width: 23vw;
   height: 50vh;
   border: 0.3vw solid lightskyblue;
   padding: 2%;
-  margin: 4%;
+  margin: 3%;
   float: left;
 }
 #info{

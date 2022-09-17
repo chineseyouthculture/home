@@ -1,6 +1,17 @@
 *{
     overflow-x: hidden;
 }
+body{
+    background-image:url('imgs/clouds.jpg');
+    background-repeat:no-repeat;
+    background-size:cover ;
+}
+#container{
+    margin: auto;
+    background:rgba(254, 230, 255, 0.7);
+    width: 70%;
+
+}
 h1{
     color: brown;
     font-size:5vh;
@@ -9,8 +20,7 @@ h1{
 }
 p,li{
     font-size:1.5em;
-    padding: 1vh;
-    text-align: center;
+    padding: 2%;
 }
 h2{
     text-align: center;
@@ -32,13 +42,25 @@ h2{
     text-decoration: none;
     color: #333;
     border: .1vh solid #333;
-    text-align: center;
     position: relative;
     transition: all .35s;
     margin: auto;
     overflow-y: hidden; 
     background:lightblue;
     border-radius: 2vw;
+    text-align:center;
+}
+@media only screen and (max-width: 800px){
+    #btn{
+        width:20em;
+        height:4em;
+        line-height: 4em;
+        font-size:0.7em;
+    }
+    p,li{
+        font-size:1em;
+        padding: 2%;
+    }
 }
   
 #btn span{

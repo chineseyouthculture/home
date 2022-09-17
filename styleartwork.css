@@ -5,6 +5,12 @@ h2{
     font-size: 5vh;
     text-align: center;
 }
+body{
+    background:rgb(0, 0, 255,0.5);
+    background-image:url('imgs/watercolorpink.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
 #line_divider{
     width: 50vw;
     height:5vw;
@@ -26,15 +32,8 @@ h2{
 .category-filter{
     margin-top: 40px;
 }
-.title{
-    margin-bottom: 40px;
-}
-.title h1{
-    color: #1b1919;
-    text-align: center;
-    font-weight: 800;
-    font-size: 36px;
-    letter-spacing: 1px;
+h3,span{
+    color:black;
 }
 .filter-btns{
     text-align: center;
@@ -47,14 +46,16 @@ h2{
     text-transform: uppercase;
     display: inline-block;
     margin: 10px 30px;
-    font-size: 16px;
-    color: #d3d3d3;
+    font-size: 1.5em;
+    color: rgb(212, 243, 248);
     font-weight: 600;
     letter-spacing: 2px;
     position: relative;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    overflow-y: hidden;
+    text-shadow: 0 0 5px rgb(75, 188, 219);
 }
 .filter-btn::after{
     content: "";
@@ -69,17 +70,17 @@ h2{
     background-color: #555;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out
+    transition: all 0.2s ease-in-out;
 }
 .filter-btn:hover{
-    color: #555;
+    color:  #bde3fc;
 }
 .filter-btn:hover::after{
     width: 100%;
 }
 /* active button */
 .active-btn{
-    color: #555;
+    color:  #ecbdfc;
 }
 .active-btn::after{
     width: 100%;
@@ -92,6 +93,10 @@ h2{
 .item-img{
     position: relative;
     overflow: hidden;
+}
+img{
+    width: 40vw;
+    height: 30vh;
 }
 .item-img::after{
     content: "";
@@ -124,24 +129,49 @@ h2{
     font-size: 17px;
     margin-top: 8px;
 }
-.add-btn{
-    display: inline-block;
-    margin-top: 20px;
-    background-color: #95bf47;
+.btn{
+    display: block;
+    width: 7em;
+    height: 3em;
+    line-height: 3em;
+    font-size: 1em;
+    font-family: sans-serif;
     text-decoration: none;
-    color: #fff;
-    padding: 8px 20px;
-    border-radius: 2px;
-    border: 2px solid #95bf47;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-.add-btn:hover{
-    border-color: #95bf47;
-    background-color: #fff;
-    color: #95bf47;
-}
+    color: black;
+    border: .5vh solid rgb(35, 115, 200);
+    text-align: center;
+    transition: all .35s;
+    overflow-y: hidden; 
+    background:lightskyblue;
+    position: relative;
+    border-radius:1em;
+  }
+  
+  .btn span{
+    position: relative;
+    z-index: 2;
+    color:white;
+  }
+  
+  .btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(190, 226, 249);
+    transition: all .35s;
+  }
+  .btn:hover{
+    color: white;
+  }
+  .btn:hover:after{
+    width: 100%;
+  }
+  .btn span:after{
+    color:white;
+  }
 
 
 .filter-items{

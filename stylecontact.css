@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: visible;
 }
 
 h2 {
@@ -21,7 +22,9 @@ h4 {
     color: #9b9b9b;
     line-height: 1.5;
 }
-
+body{
+    background-image:url('imgs/huangshan.jpg');
+}
 /* ///// inputs /////*/
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
@@ -61,7 +64,6 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     width: 650px;
     max-width: 100%;
 }
-
 input,
 textarea {
     padding: 30px;
@@ -87,7 +89,6 @@ textarea {
     width: 100%;
     min-height: 15em;
 }
-
 .input-container {
     width: 650px;
     max-width: 100%;
@@ -161,12 +162,12 @@ width: 100%;
     margin-top:4em;
     padding: 4em 1em;
     width: 100%;
-    background-color:lightblue;
+    background-color:rgba(117, 247, 236, 0.6);
     overflow-x: hidden; 
-    color: blue;
+    color: black;
 }
 .icon_text,.icon,.bi,.bi-instagram{
-    color:blue;
+    color:black;
     font-size: 2em;
 }
 .icon{
