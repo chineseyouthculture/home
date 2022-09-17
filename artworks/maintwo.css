@@ -1,0 +1,15 @@
+#image{
+    padding:5%;
+}
+
+img{
+    text-align:center;
+    width:50em;
+    max-width:100%;
+    display:block;
+    margin:auto;
+}
+h2,h3{
+    text-align:center;
+}
+
